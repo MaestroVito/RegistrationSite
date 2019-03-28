@@ -38,9 +38,39 @@ span {
 
 .form_item input {
 	float: right;
+	width: 40%;
 }
 
 .form_item {
 	clear: both;
 	padding: 20px;
+}
+
+.form_item textarea {
+	float: right;
+	width: 40%;
+	resize: none;
+}
+
+.form_item select {
+	float: right;
+	width: 40%;
+}
+
+.short_inp[type='text'] {
+	width: 20%;
+	margin-right: 20%;
+}
+
+.form_item div {
+	float: right;
+}
+
+section {
+	float: left;
+}
+
+div div .short_inp[type='text'] {
+	width: 100px;
+	margin-right: 0px;
 }
