@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h3 {
+	display: inline-block;
+}
+
+.form_header {
+	background: green;
+	padding: 15px 10px;
+}
+
+.header_select {
+	background: green;
+	border: none;
+	margin-left: 30px;
+}
+
+.form_left {
+	display: inline-block;
+	width: 49%;
+}
+
+.form_right {
+	display: inline-block;
+	width: 49%;
+}
+
+span {
+	color: red;
+}
+
+.form_item p {
+	float: left;
+}
+
+.form_item input {
+	float: right;
+}
+
+.form_item {
+	clear: both;
+	padding: 20px;
+}
