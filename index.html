@@ -14,7 +14,9 @@
 			</select>
 		</div>
 		<div class="form_body">
+
 			<div class="form_left">
+
 				<div class="form_item">
 					<p>First Name <span>*</span></p> 
 					<input type="text">
@@ -63,9 +65,9 @@
 					<input type="text" class="short_inp">
 				</div>
 
-				<div class="form_item">
+				<div class="form_item" >
 					<p>Website</p>
-					<div>
+					<div id="website_column">
 						<div style="clear: both;">
 							<section>URL</section> 
 							<input type="text" class="short_inp">
@@ -77,11 +79,63 @@
 					</div>
 				</div>
 
+				<div class="form_item">
+					<p>Email address <span>*</span></p> 
+					<input type="text">
+				</div>
+
 			</div>
+
 			<div class="form_right">
-				
+
+				<div class="form_item">
+					<p>When is the best time to contact you ?</p>
+					<div id="question_column">
+						<div style="clear: both;">
+							<input type="radio">
+							<section>Morning</section>
+						</div>
+						<div style="clear: both;">
+							<input type="radio">
+							<section>Afternoon</section>
+						</div>
+						<div style="clear: both;">
+							<input type="radio">
+							<section>Evening</section>
+						</div>
+					</div>
+				</div>
+
+				<div class="form_item">
+					<p>What is the best way to contact you ?</p>
+					<div id="question_column">
+						<div style="clear: both;">
+							<input type="radio">
+							<section>Phone</section>
+						</div>
+						<div style="clear: both;">
+							<input type="radio">
+							<section>Email</section>
+						</div>
+						<div style="clear: both;">
+							<input type="radio">
+							<section>Fax</section>
+						</div>
+					</div>
+				</div>
+
+				<div class="form_item">
+					<p>Message</p> 
+					<textarea name="" id="" cols="30" rows="10">
+					</textarea>
+				</div>
+
 			</div>
-		</div>	
+			<div class="form_footer">
+				<input type="button" value="Submit">
+				<input type="button" value="Submit">
+			</div>	
+		</div>
 	</form>
 </body>
 </html>
