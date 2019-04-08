@@ -3,6 +3,10 @@
 	padding: 0px;
 }
 
+html, body {
+	height: 100%;
+}
+
 h3 {
 	display: inline-block;
 }
@@ -10,6 +14,30 @@ h3 {
 .form_header {
 	background: green;
 	padding: 15px 10px;
+}
+
+.form_footer {
+	display: flex;
+	justify-content: center;
+    width: 100%;
+    margin: auto;
+    background: grey;
+    position: absolute; 
+    bottom: 0;
+}
+
+.form_footer input {
+	height: 30px;
+	width: 120px;
+	margin: 10px 10px 10px 10px;
+    padding: 5px 15px;  
+    font-weight: bold;
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.3);
+    text-shadow:0 1px 1px white;
 }
 
 .header_select {
@@ -26,6 +54,7 @@ h3 {
 .form_right {
 	display: inline-block;
 	width: 49%;
+	float: right;
 }
 
 span {
@@ -34,11 +63,17 @@ span {
 
 .form_item p {
 	float: left;
+	font-weight: 600;
 }
 
 .form_item input {
 	float: right;
 	width: 40%;
+}
+
+.form_item input[type="radio"] {
+	margin-right: 200px;
+	margin-bottom: 10px;
 }
 
 .form_item {
@@ -66,11 +101,17 @@ span {
 	float: right;
 }
 
-section {
-	float: left;
+#website_column section {
+	position: absolute;
+	margin-left: -10%;
 }
 
-div div .short_inp[type='text'] {
-	width: 100px;
+#website_column .short_inp {
+	width: 120%;
 	margin-right: 0px;
+	margin-bottom: 5px;
+}
+
+#question_column section {
+	position: absolute;
 }
